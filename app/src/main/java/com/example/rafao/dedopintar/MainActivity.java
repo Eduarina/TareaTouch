@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     imagen.setImageBitmap(bmap);
                     float diferencia = (view.getHeight()-bmap.getHeight())/2;
                     if(motionEvent.getY() >= diferencia && motionEvent.getX() <= (view.getHeight()-diferencia)){
-                        cnv.drawCircle(motionEvent.getX(), (motionEvent.getY()-imagen.getY()),5,colorea);
+                        cnv.drawCircle((motionEvent.getX()*200/bmap.getWidth()), (motionEvent.getY()-imagen.getY()-160),5,colorea);
                     }
                     break;
             }
