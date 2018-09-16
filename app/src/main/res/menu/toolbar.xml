@@ -7,4 +7,9 @@
         android:icon="@drawable/rodillo"
         android:title="boton"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnC"
+        android:icon="@drawable/cancela"
+        android:title="boton"
+        app:showAsAction="ifRoom" />
 </menu>
